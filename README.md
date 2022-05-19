@@ -76,12 +76,14 @@ The type bins are created based on types of schools, i.e. charter and district. 
 ![Type scores](https://github.com/SohaT7/School_District_Analysis/blob/main/Images/type_summary_df.png)
 
 ## Summary
-To summarize, replacing the scores for ninth grade at Thomas High School results in .....
+To summarize, replacing the scores for ninth grade at Thomas High School results in almost negligible differences in the scores generated for district summary. The average math score has increased by 0.1 to 79.0, % Passing Math by 0.2 to 75.0, % Passing Reading by 0.1 to 85.8 (not 85.7), whereas the average reading score remains unchanged at 81.9. The % Overall Passing has increased by 0.3 to 65.2.
+
+In contrast, the school summary shows considerable changes, but only for Thomas High School: the % Passing Math has increased from 66.9 to 93.2, the % Passing Reading has increased from 69.7 to 97.0, and the % Passing Overall has increased from 65.1 to 90.6 from 65.1. 
 
 
 
-The district summary dataframe values are slightly changed after the fixture. The average math score is 79.0 (78.9 previously), the average reading score remains the same at 81.9, % Passing Math is 75.0 (not 74.8), % Passing Reading is 85.8 (not 85.7), whereas the % Overall Passing is 65.2 (as opposed to the previous 64.9).
-The per_school_summary_df below shows that the scores for each school remain the same as before, except for Thomas High School. For Thomas High School, there is a drastic improvement in the % Passing Math (93.2 from 66.9), % Passing Reading (97.0 from 69.7), and % Passing Overall (90.6 from 65.1) scores after the data has been fixed. 
+
+
 
 
 
