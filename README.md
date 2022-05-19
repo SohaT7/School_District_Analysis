@@ -3,7 +3,7 @@
 ## Overview of the school district analysis
 ### Purpose of the analysis:
 The analysis generates district summary as well as per school summary on the math, reading, and overall passing percentages in the schools. 
-After the analysis, however, it was discovered that some academic dishonesty had occurred where the grades for the ninth graders had been altered. In order to maintain state-testing standards, these data values were replaced with NaNs (‘Not a number’) and the analysis repeated.
+After the analysis (in [Initial analysis](https://github.com/SohaT7/School_District_Analysis/blob/main/PyCitySchools.ipynb)), however, it was discovered that some academic dishonesty had occurred where the grades for the ninth graders had been altered. In order to maintain state-testing standards, these data values were replaced with NaNs (‘Not a number’) and the analysis ([Replacement analysis](https://github.com/SohaT7/School_District_Analysis/blob/main/PyCitySchools_Challenge.ipynb))repeated.
 ### Description of the analysis:
 The total number of students in the initial analysis was 39170, whereas that in the analysis after fixing the data was 38709. The latter value has been used in the calculations done in the second analysis. 
 The school_data_df and student_data_df were merged into a new dataframe called the school_compelte_dataset_df, and the two analyses carried out thereafter. 
