@@ -63,22 +63,25 @@ The scores post-fixture are as follows:
 ### Scores by school spending:
 The spending bins created are $0-586, $586-630, $631-645, and $646-675. The scores per spending bin (or level) remain the same as those before the data fixture. 
 
-![Spending scores]()
+![Spending scores](https://github.com/SohaT7/School_District_Analysis/blob/main/Images/spending_summary_df.png)
 
 ### Scores by school size:
 The size bins created are small (<1000), medium (1000-1999), and large (2000-5000). The scores based on size bins i.e. level of student population in schools, remains the same as before.
 
-![Size scores]()
+![Size scores](https://github.com/SohaT7/School_District_Analysis/blob/main/Images/size_summary_df.png)
 
 ### Scores by school type:
 The type bins are created based on types of schools, i.e. charter and district. The scores based on types of schools remain the same before and after the data fixture. 
 
-![Type scores]()
+![Type scores](https://github.com/SohaT7/School_District_Analysis/blob/main/Images/type_summary_df.png)
 
 ## Summary
+To summarize, replacing the scores for ninth grade at Thomas High School results in .....
 
 
 
+The district summary dataframe values are slightly changed after the fixture. The average math score is 79.0 (78.9 previously), the average reading score remains the same at 81.9, % Passing Math is 75.0 (not 74.8), % Passing Reading is 85.8 (not 85.7), whereas the % Overall Passing is 65.2 (as opposed to the previous 64.9).
+The per_school_summary_df below shows that the scores for each school remain the same as before, except for Thomas High School. For Thomas High School, there is a drastic improvement in the % Passing Math (93.2 from 66.9), % Passing Reading (97.0 from 69.7), and % Passing Overall (90.6 from 65.1) scores after the data has been fixed. 
 
 
 
