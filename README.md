@@ -3,7 +3,7 @@
 ### Purpose:
 The analysis generates district summary as well as per school summary on the math, reading, and overall passing percentages in the schools. 
 
-After the initial analysis (in [PyCitySchools.ipynb](https://github.com/SohaT7/School_District_Analysis/blob/main/PyCitySchools.ipynb)), it was discovered that some academic dishonesty had occurred where the grades for the ninth graders had been altered. In order to maintain state-testing standards, these data values were replaced with NaNs (‘Not a number’) and the analysis ([PyCitySchools_Challenge.ipynb](https://github.com/SohaT7/School_District_Analysis/blob/main/PyCitySchools_Challenge.ipynb))repeated.
+After the initial analysis (in [PyCitySchools.ipynb](https://github.com/SohaT7/School_District_Analysis/blob/main/PyCitySchools.ipynb)), it was discovered that some academic dishonesty had occurred where the grades for the ninth graders had been altered. In order to maintain state-testing standards, these data values were replaced with NaNs (‘Not a number’) and the analysis ([PyCitySchools_Challenge.ipynb](https://github.com/SohaT7/School_District_Analysis/blob/main/PyCitySchools_Challenge.ipynb)) repeated.
 
 ### About the Dataset:
 The dataset comprises of external CSV files:
