@@ -16,7 +16,7 @@ The analysis generates district summary as well as per school summary on the mat
 After the initial analysis (in [PyCitySchools.ipynb](https://github.com/SohaT7/School_District_Analysis/blob/main/PyCitySchools.ipynb)), it was discovered that some academic dishonesty had occurred where the grades for the ninth graders had been altered. In order to maintain state-testing standards, these data values were replaced with NaNs (‘Not a number’) and the analysis ([PyCitySchools_Challenge.ipynb](https://github.com/SohaT7/School_District_Analysis/blob/main/PyCitySchools_Challenge.ipynb)) repeated.
 
 ### About the Dataset:
-The dataset comprises of two CSV files, containing data on 14 different schools, and students. The data file on schools contains 14 records (one for each school) containing the fields: School ID, School Name, Type, Size, and Budget. The data file on the students has 39170 records, containing the fields: Student ID, Student Name, Gender, Grade, School Name, Reading Score, and Math Score.
+The dataset comprises of two CSV files, containing data on 14 different schools and students. The data file on schools has 14 records (one for each school) containing the fields: School ID, School Name, Type, Size, and Budget. The data file on students has 39170 records, containing the fields: Student ID, Student Name, Gender, Grade, School Name, Reading Score, and Math Score.
 
  - [Schools Data](https://github.com/SohaT7/School_District_Analysis/blob/main/Resources/schools_complete.csv)
  - [Students Data](https://github.com/SohaT7/School_District_Analysis/blob/main/Resources/students_complete.csv)
