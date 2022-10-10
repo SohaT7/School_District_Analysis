@@ -1,4 +1,14 @@
 # School District Analysis
+## Table of Contents
+- [Overview of the Analysis](#overview-of-the-analysis)
+    - [Purpose](#purpose)
+    - [About the Dataset](#about-the-dataset)
+    - [Tools Used](#tools-used)
+    - [Description](#description)
+- [Results](#results)
+- [Summary](#summary)
+- [Contact Information](#contact-information)
+
 ## Overview of the Analysis
 ### Purpose:
 The analysis generates district summary as well as per school summary on the math, reading, and overall passing percentages in the schools. 
@@ -6,17 +16,14 @@ The analysis generates district summary as well as per school summary on the mat
 After the initial analysis (in [PyCitySchools.ipynb](https://github.com/SohaT7/School_District_Analysis/blob/main/PyCitySchools.ipynb)), it was discovered that some academic dishonesty had occurred where the grades for the ninth graders had been altered. In order to maintain state-testing standards, these data values were replaced with NaNs (‘Not a number’) and the analysis ([PyCitySchools_Challenge.ipynb](https://github.com/SohaT7/School_District_Analysis/blob/main/PyCitySchools_Challenge.ipynb)) repeated.
 
 ### About the Dataset:
-The dataset comprises of external CSV files:
+The dataset comprises of the two following CSV files, and contains data on 14 different schools, and students. </n>The data file on schools contains 14 records (one for each school) containing the fields: School ID, School Name, Type, Size, and Budget. </n>The data file on the students has 39170 records, containing the fields: Student ID, Student Name, Gender, Grade, School Name, Reading Score, and Math Score.
 
-[Schools Data (School ID, School Name, Type, Size, Budget)](https://github.com/SohaT7/School_District_Analysis/blob/main/Resources/schools_complete.csv)
-
-[Students Data (Student ID, Student Name, Gender, Grade, School Name, Reading Score, Math Score)](https://github.com/SohaT7/School_District_Analysis/blob/main/Resources/students_complete.csv)
+ - [Schools Data](https://github.com/SohaT7/School_District_Analysis/blob/main/Resources/schools_complete.csv)
+ - [Students Data](https://github.com/SohaT7/School_District_Analysis/blob/main/Resources/students_complete.csv)
 
 ### Tools Used:
-Python
-
-Jupyter Notebook
-
+ - Python
+ - Jupyter Notebook
 
 ### Description:
 The total number of students in the initial analysis was 39170, whereas that in the analysis after fixing the data was 38709. The latter value has been used in the calculations done in the second analysis. 
